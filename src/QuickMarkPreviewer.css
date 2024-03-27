@@ -1,0 +1,68 @@
+/* Container styles */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 75vh;
+  background-color: #e09797; /* Dark background */
+  padding: 20px; /* Add padding for breathing room */
+}
+
+/* Heading styles */
+h1 {
+  margin-bottom: 20px;
+  color: #b06cf0; /* White text color */
+}
+
+/* Toolbar styles */
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 30px; /* Space out from content */
+  margin-top: -10px; /* Adjusted margin to align with content */
+}
+
+.toolbar button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(143, 4, 4); /* Neon pink */
+  color: #fff; /* White text color */
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  box-shadow: 0 0 15px rgba(255, 20, 147, 0.5); /* Soft neon pink glow */
+}
+
+.toolbar button:hover {
+  background-color: #6466f5; /* Darker shade of neon pink */
+  transform: scale(1.05);
+}
+
+/* Content styles */
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: -100px; /* Move the content up */
+}
+
+.editor,
+.preview {
+  flex: 1;
+  margin-right: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  background-color: #fff; /* White background */
+  overflow-y: auto;
+}
+
+.editor {
+  min-height: 250px;
+}
+

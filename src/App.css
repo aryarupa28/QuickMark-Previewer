@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.editor,
+.preview {
+  width: 45%;
+  min-height: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 16px;
+}
+
+.editor {
+  resize: vertical;
+}
+@media screen and (max-width: 600px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+     /* Change flex direction to column for devices with max width 600px */
+  }
+
+  .editor,
+  .preview {
+    width:90%;
+    margin-right: 0; /* Remove right margin for smaller screens */
+    margin-bottom: 20px; /* Add bottom margin for smaller screens */
+  }
+}
+

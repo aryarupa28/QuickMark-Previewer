@@ -73,3 +73,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ![qmp2](https://github.com/aryarupa28/QuickMark-Previewer/assets/130384698/bfdb482e-233b-499a-aa65-d9ca0481edbe)
 ![qmp3](https://github.com/aryarupa28/QuickMark-Previewer/assets/130384698/7e942dc0-3539-464a-a630-7c55d3d57524)
 ![qmp4](https://github.com/aryarupa28/QuickMark-Previewer/assets/130384698/de86e2ed-1a0f-4e02-a1b3-eeb89a97d68f)
+![qmp5](https://github.com/aryarupa28/QuickMark-Previewer/assets/130384698/b0ae152b-7b8e-4d9c-8c9e-3fd9bf0884b7)
+![qmp6](https://github.com/aryarupa28/QuickMark-Previewer/assets/130384698/1c075bad-79a8-41e2-8a14-15902b591ecf)

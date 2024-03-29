@@ -19,6 +19,7 @@
 }
 @media screen and (max-width: 600px) {
   .content {
+    margin-top: 10px;
     flex-direction: column;
     align-items: center;
      /* Change flex direction to column for devices with max width 600px */
